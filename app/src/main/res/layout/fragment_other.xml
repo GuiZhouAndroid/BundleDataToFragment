@@ -7,14 +7,9 @@
     android:padding="10dp" >
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/text_other"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp" />
-    <Button
-        android:text="点击传递数据到下一个Fragment"
-        android:id="@+id/btn_put_other"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
 </LinearLayout>
