@@ -33,7 +33,9 @@ public class ArgFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_arg, container, false);
         text = (TextView) view.findViewById(R.id.text);
-        text.setText(getArguments().getString("data"));
+        if (getArguments()!=null){
+            text.setText(getArguments().getString("data"));
+        }
         return view;
     }
 }
